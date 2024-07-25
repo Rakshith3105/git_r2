@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Bill Generator</title>
+        <link rel="stylesheet" href="Bill.css"/>
+        <link rel="stylesheet" href="bill_script.js"/>
+    </head>
+
+    <body>
+        <form>
+            <h1 align="center">Bill Generator</h1>
+            <center>
+            <table border=2px cellpadding="5px">
+                <tr>
+                    <th></th>
+                    <th>Item</th>
+                    <th>cost</th>
+                    <th>Quantity</th>
+                    <th>Amount</th>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="tick"/></td>
+                    <td>Pen</td>
+                    <td>Rs.10</td>
+                    <td><input type="text" /></td>
+                    <td><input type="calculator" id="calc" onclick="result"/></td>
+                </tr>
+
+                <tr>
+                    <td><input type="checkbox" id="tick"/></td>
+                    <td>Britanian Gold</td>
+                    <td>Rs.30</td>
+                    <td><input visibility="visible"/></td>
+                    <td><input type="calculator" id="calc" onclick="result"/></td>
+                </tr>
+
+                <tr>
+                    <td><input type="checkbox" id="tick"/></td>
+                    <td>Boost</td>
+                    <td>Rs.180</td>
+                    <td><input visibility="visible"/></td>
+                    <td><input type="calculator" id="calc" onclick="result"/></td>
+                </tr>
+
+                <tr>
+                    <td><input type="checkbox" id="tick"/></td>
+                    <td>Soap</td>
+                    <td>Rs.20</td>
+                    <td><input visibility="visible"/></td>
+                    <td><input type="calculator" id="calc" onclick="result"/></td>
+                </tr>
+
+                <tr>
+                    <td><input type="checkbox" id="tick"/></td>
+                    <td>Dairy Milk</td>
+                    <td>Rs.400</td>
+                    <td><input visibility="visible"/></td>
+                    <td><input type="calculator" id="calc" onclick="result"/></td>
+                </tr>
+            </table>
+            <br/>
+            <div align="center"><span>
+               <b><input type="text" id="th3" value="Submitt" disabled="true"/>
+                <input type="text" id="th2" value="Reset" disabled="true"/></b>
+            </div>
+            <br/>
+            <div align="center">
+                <input type="text" id="th1" value="Total Amount" disabled="true"/><br/>
+                <input type="text" id="th1" value="CGST" disabled="true"/><br/>
+                <input type="text" id="th1" value="SGST" disabled="true"/><br/>
+                <input type="text" id="th1" value="Grand Total" disabled="true"/><br/>
+                </span>
+            </div>
+            </center>
+        </form>
+    </body>
+</html>
